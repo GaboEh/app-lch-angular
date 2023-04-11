@@ -1,0 +1,135 @@
+.bienvenida{
+    margin-top: 80px;
+    text-align: center;
+    position: relative;
+    width: auto;
+}
+
+.h2, h2 {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;;
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+    text-transform: uppercase;
+    display: block;
+    color: #212529;
+    text-shadow: 0 8px 9px #7e766a, 0px -2px 1px rgb(90, 89, 89);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+}
+  
+  .recomendados{padding-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    color: white;
+    position: relative;
+    width: auto;
+    min-width: 300px;
+  }
+
+b .fr-4.rec{
+    margin-top: 5px;
+}
+
+.catalogo-title p{
+    color: #212529;
+    padding-left: 20px;
+    font-size: 1.4rem;
+}
+
+.card{
+    width: 188px;
+    height: 300px;
+    box-shadow: 5px 8px #0000008e;
+    margin-bottom: 20px;
+}
+
+img .d-block.w-100{
+    height: 261.69px;
+    width: 164px;
+  }
+
+  .carrousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1.5rem;
+}
+
+.row {
+    flex-direction: row; 
+    }
+    
+    .row {
+      width: 188px; /* Box dimensions */
+      height: 300px;
+    }
+.area-black{
+    background-color: #212529;
+    width: auto;
+    position: relative;
+}
+
+section.card-libros{
+    position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding:0;
+}
+
+section.card-libros2{
+    position: relative;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    margin: 0;
+    padding:0;
+}
+
+
+@media (min-width: 720px) {
+    .column {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .carrousel{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 1.5rem;
+    }
+
+    section.card-libros{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    section.card-libros2{
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 1.5rem;
+    }
+
+    .bienvenida{
+        margin-top: 80px;
+        text-align: center;
+        position: relative;
+        width: auto;
+    }
+
+  }
